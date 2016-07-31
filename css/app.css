@@ -297,6 +297,7 @@
 .product-page .img-container {
   color: #ffffff;
   position: relative;
+  overflow:hidden;
 }
 .product-page .img-container h1 {
   position: absolute;
