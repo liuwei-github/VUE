@@ -212,6 +212,7 @@ var app = new Vue({
 			// history.go(-1)
 			location.hash = "#"
 			this.showLogin=true
+			$("input").val("")
 		},
 		searchKey:function(e){
 			var value = e.target.value
