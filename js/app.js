@@ -215,8 +215,13 @@ var app = new Vue({
 		},
 		searchKey:function(e){
 			var value = e.target.value
+			if(!value){
+				alert("请输入关键词")
+				return
+			}
 			// console.log(value)
 			location.hash = "#/list/search/" + value
+			e.target.value = ""
 		},
 		userLogin:function(){
 			location.hash="#login";
