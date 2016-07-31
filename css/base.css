@@ -1,0 +1,11 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.no-line {
+  text-decoration: none;
+}
+.list-no {
+  list-style: none;
+}
